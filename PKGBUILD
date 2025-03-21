@@ -8,5 +8,5 @@ source=("hyprsession.sh")
 sha256sums=('SKIP')
 
 package() {
-	install -Dm755 "$srcdir/hyprsession.sh" "$pkgdir/usr/bin/hyprsession.sh"
+	install -Dm755 "$srcdir/../hyprsession.sh" "$pkgdir/usr/bin/hyprsession.sh"
 }
